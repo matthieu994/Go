@@ -1,31 +1,31 @@
-Ce projet a �t� r�alis� dans le cadre de ma 1ere ann�e de DUT Informatique � l'IUT de S�nart.
+Ce projet a été réalisé dans le cadre de ma 1ere année de DUT Informatique é l'IUT de Sénart.
 
-LANCEMENT :
-Le point d'entr�e du programme se trouve dans le fichier source : src/go/Go.java
+# LANCEMENT :
+Le point d'entrée du programme se trouve dans le fichier source : src/go/Go.java
 Pour lancer le programme vous pouvez:
-- Ex�cuter le fichier Go.jar
+- Exécuter le fichier Go.jar
 - Importer le projet dans Eclipse
-- � partir de la ligne de commande:
+- À partir de la ligne de commande:
 	Compiler:
-	> javac components/*.java go/*.java
-	Puis ex�cuter:
-	> java go/Go
+	> `javac components/*.java go/*.java`
+	Puis exécuter:
+	> `java go/Go`
 
-Le dossier go/ contient toutes les classes et fonctions indispensables au fonctionnement du programme.
-Le dossier components/ contient les classes h�rit�es des classes 'components' de java, telles que JPanel, JButton, etc.
-Le dossier img/ contient toutes les images.
-Le dossier saves/ contient les parties sauvegard�es.
+- Le dossier go/ contient toutes les classes et fonctions indispensables au fonctionnement du programme.
+- Le dossier components/ contient les classes héritées des classes 'components' de java, telles que JPanel, JButton, etc.
+- Le dossier img/ contient toutes les images.
+- Le dossier saves/ contient les parties sauvegardées.
 
-FICHIERS SOURCES :
-Toutes les classes 'components' h�ritent de composants propres � java.
-GameState est une enum�ration pr�sentant les �tats possibles du jeu, tels que START, END, CAPTURE ou TERRITORY.
-State est une enum�ration pr�sentant les �tats possibles d'une pierre, tels que BLACK, WHITE ou EMPTY.
-Go est le point d'entr�e du programme.
-myWindow permet d'ex�cuter les fonctions centrales telles que le lancement d'une partie, le choix de la taille et du temps, l'affichage du gagnant.
-Goban contient un panneau GobanGrid, et un panneau Infos, respectivement la grille de jeu, et le panneau des informations; ce fichier source contient toutes les fonctions essentielles � la manipulation des pierres sur le plateau, l'historique de jeu, la sauvegarde dans un fichier, etc.
-GobanGrid repr�sente le plateau de jeu et les pierres pr�sentes.
+# FICHIERS SOURCES :
+Toutes les classes 'components' héritent de composants propres é java.
+GameState est une enumération présentant les états possibles du jeu, tels que START, END, CAPTURE ou TERRITORY.
+State est une enumération présentant les états possibles d'une pierre, tels que BLACK, WHITE ou EMPTY.
+Go est le point d'entrée du programme.
+myWindow permet d'exécuter les fonctions centrales telles que le lancement d'une partie, le choix de la taille et du temps, l'affichage du gagnant.
+Goban contient un panneau GobanGrid, et un panneau Infos, respectivement la grille de jeu, et le panneau des informations; ce fichier source contient toutes les fonctions essentielles é la manipulation des pierres sur le plateau, l'historique de jeu, la sauvegarde dans un fichier, etc.
+GobanGrid représente le plateau de jeu et les pierres présentes.
 Infos permet d'afficher diverses informations telles que le temps, le score, etc.
-Stone est la classe repr�sentant une pierre du plateau, elle comporte des fonctions permettant de calculer ses libert�s, ou � quel territoire elle appartient.
+Stone est la classe représentant une pierre du plateau, elle comporte des fonctions permettant de calculer ses libertés, ou é quel territoire elle appartient.
 
-JAVADOC :
+## JAVADOC :
 http://dwarves.iut-fbleau.fr/~petitm/Javadoc/Go
