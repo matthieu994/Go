@@ -1,6 +1,6 @@
 Ce projet a été réalisé dans le cadre de ma 1ere année de DUT Informatique é l'IUT de Sénart.
 
-# LANCEMENT :
+# Exécuter
 Le point d'entrée du programme se trouve dans le fichier source : src/go/Go.java
 Pour lancer le programme vous pouvez:
 - Exécuter le fichier Go.jar
@@ -11,13 +11,13 @@ Pour lancer le programme vous pouvez:
 	## Puis exécuter:
 	> `java go/Go`
 
+# Fichiers sources
 - Le dossier go/ contient toutes les classes et fonctions indispensables au fonctionnement du programme.
 - Le dossier components/ contient les classes héritées des classes 'components' de java, telles que JPanel, JButton, etc.
 - Le dossier img/ contient toutes les images.
 - Le dossier saves/ contient les parties sauvegardées.
 
-# FICHIERS SOURCES :
-Toutes les classes 'components' héritent de composants propres é java.
+Toutes les classes 'components' héritent de composants propres à java.
 GameState est une enumération présentant les états possibles du jeu, tels que START, END, CAPTURE ou TERRITORY.
 State est une enumération présentant les états possibles d'une pierre, tels que BLACK, WHITE ou EMPTY.
 Go est le point d'entrée du programme.
