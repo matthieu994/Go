@@ -6,9 +6,9 @@ Pour lancer le programme vous pouvez:
 - Exécuter le fichier Go.jar
 - Importer le projet dans Eclipse
 - À partir de la ligne de commande:
-	Compiler:
+	## Compiler:
 	> `javac components/*.java go/*.java`
-	Puis exécuter:
+	## Puis exécuter:
 	> `java go/Go`
 
 - Le dossier go/ contient toutes les classes et fonctions indispensables au fonctionnement du programme.
@@ -25,7 +25,7 @@ myWindow permet d'exécuter les fonctions centrales telles que le lancement d'un
 Goban contient un panneau GobanGrid, et un panneau Infos, respectivement la grille de jeu, et le panneau des informations; ce fichier source contient toutes les fonctions essentielles é la manipulation des pierres sur le plateau, l'historique de jeu, la sauvegarde dans un fichier, etc.
 GobanGrid représente le plateau de jeu et les pierres présentes.
 Infos permet d'afficher diverses informations telles que le temps, le score, etc.
-Stone est la classe représentant une pierre du plateau, elle comporte des fonctions permettant de calculer ses libertés, ou é quel territoire elle appartient.
+Stone est la classe représentant une pierre du plateau, elle comporte des fonctions permettant de calculer ses libertés, ou à quel territoire elle appartient.
 
 ## JAVADOC :
 http://dwarves.iut-fbleau.fr/~petitm/Javadoc/Go
