@@ -3,13 +3,17 @@ Ce projet a été réalisé dans le cadre de ma 1ere année de DUT Informatique 
 # Exécuter
 Le point d'entrée du programme se trouve dans le fichier source : src/go/Go.java
 Pour lancer le programme vous pouvez:
-- Exécuter le fichier Go.jar
-- Importer le projet dans Eclipse
-- À partir de la ligne de commande:
-	## Compiler:
-	> `javac components/*.java go/*.java`
-	## Puis exécuter:
-	> `java go/Go`
+### Exécuter le fichier Go.jar
+### Importer le projet dans Eclipse
+### À partir de la ligne de commande:
+	#### Compiler:
+	```bash
+	javac components/*.java go/*.java
+	```
+	#### Puis exécuter:
+	```bash
+	java go/Go
+	```
 
 # Fichiers sources
 - Le dossier go/ contient toutes les classes et fonctions indispensables au fonctionnement du programme.
