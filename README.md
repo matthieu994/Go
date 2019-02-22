@@ -1,4 +1,4 @@
-Ce projet a été réalisé dans le cadre de ma 1ere année de DUT Informatique é l'IUT de Sénart.
+Ce projet a été réalisé dans le cadre de ma 1ere année de DUT Informatique à l'IUT de Sénart.
 
 # Exécuter
 Le point d'entrée du programme se trouve dans le fichier source : src/go/Go.java
