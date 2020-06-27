@@ -32,4 +32,4 @@ Infos permet d'afficher diverses informations telles que le temps, le score, etc
 Stone est la classe représentant une pierre du plateau, elle comporte des fonctions permettant de calculer ses libertés, ou à quel territoire elle appartient.
 
 ## JAVADOC :
-http://dwarves.iut-fbleau.fr/~petitm/Javadoc/Go
+https://github.com/matthieu994/public_html/tree/master/Javadoc/Go
