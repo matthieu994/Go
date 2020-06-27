@@ -31,5 +31,8 @@ Toutes les classes *components* héritent de composants propres à Java.
 **Infos** permet d'afficher diverses informations telles que le temps, le score, etc.  
 **Stone** est la classe représentant une pierre du plateau, elle comporte des fonctions permettant de calculer ses libertés, ou à quel territoire elle appartient.  
 
-## JAVADOC :
+## JavaDoc
 https://github.com/matthieu994/public_html/tree/master/Javadoc/Go
+
+## Images
+[[./resources/images/preview.png]]
