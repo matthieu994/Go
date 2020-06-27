@@ -1,7 +1,7 @@
 Ce projet a été réalisé dans le cadre de ma 1ere année de DUT Informatique à l'IUT de Sénart.
 
 # Exécuter
-Le point d'entrée du programme se trouve dans le fichier source : src/go/Go.java
+Le point d'entrée du programme se trouve dans le fichier source : src/go/Go.java  
 Pour lancer le programme vous pouvez:
 - Exécuter le fichier Go.jar
 - Importer le projet dans Eclipse
