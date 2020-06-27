@@ -35,4 +35,4 @@ Toutes les classes *components* héritent de composants propres à Java.
 https://github.com/matthieu994/public_html/tree/master/Javadoc/Go
 
 ## Images
-[[./resources/images/preview.png]]
+![preview](https://raw.githubusercontent.com/matthieu994/Go/master/resources/img/preview.png "Preview")
